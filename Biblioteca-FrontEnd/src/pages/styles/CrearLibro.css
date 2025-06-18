@@ -1,0 +1,81 @@
+.crear-libro-container {
+    width: 420px;
+    margin: 48px auto;
+    padding: 32px 28px;
+    background: #393939;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(25, 118, 210, 0.12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1.5px solid #8a8e9a;
+}
+
+.crear-libro-container h1 {
+    text-align: center;
+    margin-bottom: 28px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.crear-libro-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 1.05rem;
+    gap: 6px;
+}
+
+.crear-libro-form input {
+    padding: 12px 14px;
+    border: 1.8px solid #b6c7e3;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #707070;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 1px 3px rgba(25, 118, 210, 0.04);
+}
+
+.crear-libro-form input:focus {
+    border-color: #2476c7;
+    outline: none;
+    box-shadow: 0 0 0 2px #1976d220;
+}
+
+.crear-libro-form button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #4a6c8e 60%, #1b5788 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 1.15rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.crear-libro-form button:hover {
+    background: linear-gradient(90deg, #155a9c 60%, #1976d2 100%);
+    transform: translateY(-2px) scale(1.02);
+}
+
+.crear-libro-form input::placeholder {
+    color: #a0aec0;
+    opacity: 1;
+    font-size: 0.98rem;
+}
+
+@media (max-width: 500px) {
+    .crear-libro-container {
+        padding: 18px 8px;
+        max-width: 98vw;
+    }
+    .crear-libro-container h1 {
+        font-size: 1.3rem;
+    }
+}

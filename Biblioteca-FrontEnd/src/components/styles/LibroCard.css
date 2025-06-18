@@ -1,0 +1,37 @@
+
+.libro-card {
+  background-color: #555555;
+  border: 2px solid #919191;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: 0.3s ease;
+}
+
+.libro-card:hover {
+  transform: scale(1.02);
+}
+
+.acciones {
+  margin-top: 12px;
+}
+
+.eliminar-btn{
+    margin-left: 10px;
+    background-color: #a83a2e; 
+    color: white; 
+}
+
+.acciones button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.acciones button:hover {
+  background-color: #909090;
+}
